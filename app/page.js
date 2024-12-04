@@ -49,13 +49,13 @@ export default function Home() {
        <div className="px-16 md:px-28 lg:px-60 xl:px-80  text-sm">
      
      
-     <p className="pt-4 px-16  break-words break-all">
+     <p className="pt-4 px-8 md:px-16  break-words break-all">
      ❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔</p>
     <div className="flex justify-center items-center">    <Image className="ml-4 "  
      src={deepp} alt="Skinny" 
-     width={190} 
-     height={190}/></div>
-     <p className=" px-16  break-words break-all">
+     width={220} 
+     height={220}/></div>
+     <p className=" px-8 md:px-16  break-words break-all">
  
   ❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔</p>
       </div> 

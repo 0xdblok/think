@@ -11,7 +11,7 @@ import xx from "./x.png";
 
 export default function Home() {
   return (
-    <section className="flex flex-col items-center    px-20  pb-36 md:pb-10 text-xl bg-black text-center white max-md:px-5 max-md:pt-4">
+    <section className="flex flex-col items-center    px-20  pb-36 md:pb-10 text-xl bg-[#0A0A0F] text-center white max-md:px-5 max-md:pt-4">
     <div className="md:flex md:flex-col  md:w-full  ">
      <div className="flex flex-col justify-center items-center">
      <Image className="ml-4 "  
@@ -22,8 +22,10 @@ export default function Home() {
      <Image  
      src={depp} 
      alt="Skinny"
-      width={185} 
-      height={170}/>
+      width={235} 
+      height={190}/>
+        
+   
       </div>
       <p className="text-zinc-200 mt-24 px-8 text-base "> Delves into the vast sea of information, surfacing with facts, insights, and knowledge</p>
       <p className="text-zinc-200  px-8 text-base ">
@@ -36,7 +38,7 @@ export default function Home() {
  Buy on Uniswap
 </a></div>
        </div>
-         <article className="flex flex-col items-center  bg-black  text-white pt-64">
+         <article className="flex flex-col items-center  bg-[#0A0A0F]  text-white pt-24">
 
    
      <Image  
@@ -45,7 +47,7 @@ export default function Home() {
       width={185} 
       height={170}/>
    
-       <div className="px-16 md:px-28 lg:px-60 xl:px-80  bg-custom  bg-cover bg-center bg-no-repeat bg-fixed text-sm">
+       <div className="px-16 md:px-28 lg:px-60 xl:px-80  text-sm">
      
      
      <p className="pt-4 px-16  break-words break-all">
@@ -55,7 +57,7 @@ export default function Home() {
      <p className=" px-16  break-words break-all">
      ❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔</p>
       </div> 
-       <nav className="flex gap-3.5 items-center mt-80 max-w-full text-base w-[248px] max-md:mt-10">
+       <nav className="flex gap-3.5 items-center mt-32 max-w-full text-base w-[248px] max-md:mt-10">
          <a href="https://x.com/deepthink_base" className="grow self-stretch my-auto hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2">
            twitter
          </a>

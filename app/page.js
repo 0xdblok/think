@@ -14,7 +14,7 @@ import xx from "./x.png";
 
 export default function Home() {
   return (
-    <section className="flex flex-col items-center    px-20  pb-36 md:pb-10 text-xl bg-[#0A0A0F] text-center white max-md:px-5 max-md:pt-4">
+    <section className="flex flex-col items-center    px-20  pb-16 md:pb-10 text-xl bg-[#0A0A0F] text-center white max-md:px-5 max-md:pt-4">
     <div className="md:flex md:flex-col  md:w-full  ">
      <div className="flex flex-col justify-center items-center">
      <Image className="ml-4 "  

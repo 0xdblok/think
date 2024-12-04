@@ -31,7 +31,7 @@ export default function Home() {
 
        Our purpose is to reward holders by giving them portion on trading fees
        </p>  <p className="text-zinc-100 text-sm font-thin">(deployed using ai)</p>  
-         <p  className="text-zinc-200 mt-24 px-8 text-base ">CA : </p>
+         <p  className="text-zinc-200 mt-24 px-8 text-base ">CA : 0x0029B873EA705c7D744dD5C8586AEF386715B18d</p>
        <div className=" pt-8">
        <a  href="https://app.uniswap.org/swap" className="rounded-full border border-slate-300 py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-zinc-100" type="button">
  Buy on Uniswap

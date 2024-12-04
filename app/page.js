@@ -10,7 +10,7 @@ import xx from "./x.png";
 
 export default function Home() {
   return (
-    <section className="flex flex-col items-center   px-20  pb-36 md:pb-10 text-xl bg-black text-center white max-md:px-5 max-md:pt-4">
+    <section className="flex flex-col items-center    px-20  pb-36 md:pb-10 text-xl bg-black text-center white max-md:px-5 max-md:pt-4">
     <div className="md:flex md:flex-col  md:w-full  ">
      <div className="flex flex-col justify-center items-center">
      <Image className="ml-4 "  
@@ -44,7 +44,7 @@ export default function Home() {
       width={185} 
       height={170}/>
    
-       <div className="px-16 md:px-28 lg:px-60 xl:px-80  text-sm">
+       <div className="px-16 md:px-28 lg:px-60 xl:px-80  bg-custom  bg-cover bg-center bg-no-repeat bg-fixed text-sm">
      
      
      <p className="pt-4 px-16  break-words break-all">

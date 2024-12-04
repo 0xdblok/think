@@ -20,11 +20,7 @@ export default function Home() {
      width={140} 
      height={140}/>
    
-     <Image  
-     src={depp} 
-     alt="Skinny"
-      width={235} 
-      height={190}/>
+   
         
    
       </div>
@@ -143,7 +139,11 @@ export default function Home() {
      
 <p className=" text-leading  text-sm font-bold text-center text-white pb-4 pt-20">All rights reserve MiraAI 2024</p>
 
- 
+  <Image  
+     src={depp} 
+     alt="Skinny"
+      width={235} 
+      height={190}/> 
   
       
     </div>

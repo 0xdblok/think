@@ -4,11 +4,75 @@ import logoss from "./logoss.png";
 import x from "./xx.svg";
 
 
+import depp from "./depp.png";
+import lol from "./lol.png";
 import xx from "./x.png";
 
 export default function Home() {
   return (
-    <div className="  _____                 _   _     _       _    
+    <section className="flex flex-col items-center   px-20  pb-36 md:pb-10 text-xl bg-black text-center white max-md:px-5 max-md:pt-4">
+    <div className="md:flex md:flex-col  md:w-full  ">
+     <div className="flex flex-col justify-center items-center">
+     <Image className="ml-4 "  
+     src={logoss} alt="Skinny" 
+     width={140} 
+     height={140}/>
+   
+     <Image  
+     src={depp} 
+     alt="Skinny"
+      width={185} 
+      height={170}/>
+      </div>
+      <p className="text-zinc-200 mt-24 px-8 text-base "> Delves into the vast sea of information, surfacing with facts, insights, and knowledge</p>
+      <p className="text-zinc-200  px-8 text-base ">
+
+       Our purpose is to reward holders by giving them portion on trading fees
+       </p>  <p className="text-zinc-100 text-sm font-thin">(deployed using clanker ai)</p>  
+         <p  className="text-zinc-200 mt-24 px-8 text-base ">CA : </p>
+       <div className=" pt-8">
+       <a  href="https://app.uniswap.org/swap" className="rounded-full border border-slate-300 py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-zinc-100" type="button">
+ Buy on Uniswap
+</a></div>
+       </div>
+         <article className="flex flex-col items-center  bg-black  text-white pt-64">
+
+   
+     <Image  
+     src={lol} 
+     alt="Skinny"
+      width={185} 
+      height={170}/>
+   
+       <div className="px-16 md:px-28 lg:px-60 xl:px-80  text-sm">
+     
+     
+     <p className="pt-4 px-16  break-words break-all">
+     ❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔</p>
+    
+     
+     <p className=" px-16  break-words break-all">
+     ❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔</p>
+      </div> 
+       <nav className="flex gap-3.5 items-center mt-80 max-w-full text-base w-[248px] max-md:mt-10">
+         <a href="https://x.com/deepthink_base" className="grow self-stretch my-auto hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2">
+           twitter
+         </a>
+         <span aria-hidden="true" className="self-stretch">|</span>
+         <a href="#chart" className="self-stretch my-auto hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2">
+           chart
+         </a>
+         <span aria-hidden="true" className="self-stretch">|</span>
+         <a href="" className="self-stretch my-auto hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2">
+           deeprooms
+         </a>
+       </nav>
+     </article>
+   </section>
+  );
+} 
+
+/*<div className="  _____                 _   _     _       _    
   |  __ \              | | | |   (_)     | |   
   | |  | | ___  ___ ___| |_| |__  _ _ __ | | __
   | |  | |/ _ \/ _ | __| __| '_ \| | '_ \| |/ /
@@ -16,14 +80,14 @@ export default function Home() {
   |_____/ \___|\___|\__|\__|_| |_|_|_| |_|_|\_\
                                                  min-h-screen bg-custom  bg-cover bg-center bg-no-repeat bg-fixed ">
     <div className=" IF YOU WATCH THIS YOU WILL BE REWARDED  min-h-screen relative">
-    {/* Background div with overlay */}
+
     <div className="fixed inset-0 z-0">
    
-      {/* Gradient overlay */}
+  
       <div className="absolute inset-0 " />
     </div>
 
-    {/* Content container */}
+  
     <div className="relative z-10 container mx-auto px-12">
       <div className="flex items-end justify-end pt-4 "> 
         <Image src={logoss} alt="Logo" width={120} height={120} />
@@ -36,7 +100,7 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center pt-8">
         
 
-        {/* Text content with better responsive layout */}
+
         <div className="w-full md:w-2/3 lg:w-1/2 text-grey-600 space-y-4   bg-white/65 p-6 rounded-lg backdrop-blur-sm">
 
 
@@ -53,7 +117,7 @@ export default function Home() {
 </a>
 </div>
      
-            {/* Continue with the rest of your content... */}
+
           </div>
         </div>
       </div>
@@ -75,11 +139,9 @@ export default function Home() {
      
 <p className=" text-leading  text-sm font-bold text-center text-white pb-4 pt-20">All rights reserve MiraAI 2024</p>
 
-      {/* Button with improved positioning */}
+ 
   
       
     </div>
   </div>
-  </div>
-  );
-}
+  </div>*/

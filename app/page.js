@@ -2,8 +2,9 @@ import Image from "next/image";
 
 import logoss from "./logoss.png";
 import x from "./xx.svg";
-
-
+import logos from "./logo.png";
+import logodep from "./logodep.jpg";
+import logo from "./logo.jpg";
 import depp from "./depp.png";
 import lol from "./lol.png";
 import xx from "./x.png";
@@ -14,7 +15,7 @@ export default function Home() {
     <div className="md:flex md:flex-col  md:w-full  ">
      <div className="flex flex-col justify-center items-center">
      <Image className="ml-4 "  
-     src={logoss} alt="Skinny" 
+     src={logodep} alt="Skinny" 
      width={140} 
      height={140}/>
    

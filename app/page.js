@@ -4,6 +4,7 @@ import logoss from "./logoss.png";
 import x from "./xx.svg";
 import logos from "./logo.png";
 import logodep from "./logodep.jpg";
+import logodepp from "./logodep.png";
 import logo from "./logo.jpg";
 import depp from "./depp.png";
 import lol from "./lol.png";
@@ -15,7 +16,7 @@ export default function Home() {
     <div className="md:flex md:flex-col  md:w-full  ">
      <div className="flex flex-col justify-center items-center">
      <Image className="ml-4 "  
-     src={logodep} alt="Skinny" 
+     src={logodepp} alt="Skinny" 
      width={140} 
      height={140}/>
    

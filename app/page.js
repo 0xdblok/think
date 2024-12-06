@@ -18,11 +18,13 @@ export default function Home() {
     <section className="flex flex-col items-center    px-20  pb-16 md:pb-10 text-xl bg-[#0A0A0F] text-center white max-md:px-5 max-md:pt-4">
     <div className="md:flex md:flex-col  md:w-full  ">
      <div className="flex flex-col justify-center items-center">
+      <div className="border-4 border-solid border-white rounded-md">
      <Image className="ml-4 "  
      src={logodeppp} alt="Skinny" 
      width={240} 
      height={240}/>
-   
+   </div>
+   <p className="text-xl font-semibold text-zinc-200 pt-2">EUL</p>
    
         
    

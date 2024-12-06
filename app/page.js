@@ -33,7 +33,7 @@ export default function Home() {
       <p className="text-zinc-200  px-8 text-base ">
 
        Our purpose is to reward holders by giving them portion on trading fees
-       </p>  <p className="text-zinc-100 text-sm font-thin">(EUI - by larry's club)</p>  
+       </p>  <p className="text-zinc-100 text-sm font-thin">(EUL - by larry's club)</p>  
          <p  className="text-zinc-200 mt-24 px-8 text-base ">CA : </p>
        <div className=" pt-8">
        <a  href="https://app.uniswap.org/swap" className="rounded-full border border-slate-300 py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-zinc-100" type="button">

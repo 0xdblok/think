@@ -4,7 +4,8 @@ import logoss from "./logoss.png";
 import x from "./xx.svg";
 import logos from "./logo.png";
 import logodep from "./logodep.jpg";
-import logodepp from "./logodep.png";
+import logodepp from "./logodepp.jpg";
+import logodeppp from "./logodepp.png";
 import logo from "./logo.jpg";
 import depp from "./depp.png";
 import deep from "./deep.png";
@@ -18,9 +19,9 @@ export default function Home() {
     <div className="md:flex md:flex-col  md:w-full  ">
      <div className="flex flex-col justify-center items-center">
      <Image className="ml-4 "  
-     src={logodepp} alt="Skinny" 
-     width={140} 
-     height={140}/>
+     src={logodeppp} alt="Skinny" 
+     width={240} 
+     height={240}/>
    
    
         
@@ -30,8 +31,8 @@ export default function Home() {
       <p className="text-zinc-200  px-8 text-base ">
 
        Our purpose is to reward holders by giving them portion on trading fees
-       </p>  <p className="text-zinc-100 text-sm font-thin">(deployed using ai)</p>  
-         <p  className="text-zinc-200 mt-24 px-8 text-base ">CA : 0x0029B873EA705c7D744dD5C8586AEF386715B18d</p>
+       </p>  <p className="text-zinc-100 text-sm font-thin">(EUI - by larry's club)</p>  
+         <p  className="text-zinc-200 mt-24 px-8 text-base ">CA : </p>
        <div className=" pt-8">
        <a  href="https://app.uniswap.org/swap" className="rounded-full border border-slate-300 py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-zinc-100" type="button">
  Buy on Uniswap
@@ -51,34 +52,7 @@ export default function Home() {
      
      <p className="pt-4 px-8 md:px-16  break-words break-all">
      ❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔</p>
-    <div className="flex flex-col justify-center items-center">   
-       <Image className="ml-4 "  
-     src={deepp} alt="Skinny" 
-     width={220} 
-     height={220}/>
- <p className="text-zinc-200  text-xs ">Deep Think's Question Mark: Imagine a question mark with the weight of the world on its curve, much like Deep Think carrying the burden of all those profound thoughts.
-
-</p>
-<p  className="text-zinc-200 pt-1  text-xs ">Philosophical Punctuation: If a question mark could take the form of a person, it would be Deep Think, always pondering, with a little '?' hovering above his head like a halo of curiosity.</p>
-<p  className="text-zinc-200  pt-1  text-xs ">The Thinker's Mark: Deep Think's personal question mark is no ordinary punctuation; it's got a mini universe spinning inside it, with galaxies of questions orbiting around.</p>
-<p className="text-zinc-200   pt-1  text-xs">Curiosity's Champion: Every time Deep Think tweets, his question mark flexes its existential muscles, ready to bench-press the next big thought.</p>
-<p className="text-zinc-200   pt-1 text-xs ">
-
-The Mark of Deep: In a world where most see a mere symbol, Deep Think sees a question mark as his trusty sidekick in the quest for enlightenment.</p>
-<p className="text-zinc-200   pt-1 text-xs ">Enigmatic Emblem: Picture Deep Think's question mark wearing a tiny detective hat, solving the mysteries of life one ponder at a time.</p>
-<p className="text-zinc-200  pt-1  text-xs ">The Question Mark's Day Off: Even when Deep Think takes a break, his question mark keeps working overtime, wondering about the meaning of relaxation.</p>
-<p className="text-zinc-200   pt-1 text-xs ">Deep Think's Signature Move: When Deep Think thinks deeply, his question mark turns into a boomerang, coming back with even more questions.</p>
-<p className="text-zinc-200   pt-1  text-xs ">The Pensive Punctuation: Deep Think's question mark is like his shadow but cooler; it doesn't disappear in the dark, it just gets more reflective.
-</p>
-<p className="text-zinc-200  pt-1 text-xs ">The Ultimate Question: Deep Think's question mark isn't just punctuation; it's the eternal symbol of his quest for knowledge, always asking, "But what if?</p>
-
-
-
-
-
-
-
-     </div>
+  
      <p className=" px-8 md:px-16 pt-4 break-words break-all">
  
   ❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔❔</p>
@@ -93,7 +67,7 @@ The Mark of Deep: In a world where most see a mere symbol, Deep Think sees a que
          </a>
          <span aria-hidden="true" className="self-stretch">|</span>
          <a href="" className="self-stretch my-auto hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2">
-           deeprooms
+         EUI - room
          </a>
        </nav>
      </article>
